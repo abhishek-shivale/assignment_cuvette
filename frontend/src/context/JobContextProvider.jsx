@@ -4,7 +4,7 @@ import axios from 'axios';
 import { JobContext } from './JobContext';
 
 
-const API_URL = 'http://localhost:8080/api';
+const API_URL = 'https://assignment-cuvette-3mzb.onrender.com/api';
 
 export const JobProvider = ({ children }) => {
   const [jobs, setJobs] = useState([]);
