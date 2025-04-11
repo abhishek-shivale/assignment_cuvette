@@ -19,7 +19,7 @@ const StatusFilter = () => {
           id="status-filter"
           value={filterStatus}
           onChange={handleFilterChange}
-          className="form-input w-auto"
+          className="form-input w-auto text-black border-gray-500 border rounded-md"
         >
           <option value="All">All Applications</option>
           <option value="Applied">Applied</option>
